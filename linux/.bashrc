@@ -117,11 +117,12 @@ if ! shopt -oq posix; then
 fi
 
 #custom aliases
-alias sudo='sudo '
+alias dt='cd /home/manousos/Desktop/'
 alias za='zathura'
+alias sx='sxiv'
 alias mmsync='rsync -a --exclude="\.*" "/media/veisakis/exFAT/MM/" "/home/veisakis/Media/"'
 alias hsync='rsync -a --exclude="\.*" "/media/veisakis/exFAT/Ιστορία/" "/media/Archive/Ιστορία/"'
+alias site='ssh pi@istoria.duckdns.org'
 
 #custom variables
-export EDITOR=vim
 export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
