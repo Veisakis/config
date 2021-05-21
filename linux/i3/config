@@ -187,7 +187,7 @@ bindsym $mod+b exec brave-browser
 #exec --no-startup-id "setxkbmap -model pc105 -layout us,gr -option grp:alt_shift_toggle"
 
 #Background
-exec_always feh --bg-scale /home/manousos/Pictures/'Βαλκανικοί Πόλεμοι.jpg'
+exec_always feh --bg-scale /home/manousos/Wallpapers/'Βαλκανικοί Πόλεμοι.jpg'
 
 #dmenu
 bindsym $mod+Shift+x exec /home/manousos/scripts/i3/prompt.sh "Are you sure you want to shutdown now?" "shutdown now"
