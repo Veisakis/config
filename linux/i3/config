@@ -178,7 +178,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks
-#	colors { statusline #eff0f1 }
 }
 
 #Browser
@@ -189,3 +188,7 @@ bindsym $mod+b exec brave-browser
 
 #Background
 exec_always feh --bg-scale /home/manousos/Pictures/'Βαλκανικοί Πόλεμοι.jpg'
+
+#dmenu
+bindsym $mod+Shift+x exec /home/manousos/scripts/i3/prompt.sh "Are you sure you want to shutdown now?" "shutdown now"
+bindsym $mod+Shift+b exec /home/manousos/scripts/i3/prompt.sh "Are you sure you want to reboot?" "reboot"
