@@ -1,0 +1,8 @@
+xterm*foreground: white
+xterm*background: black
+xterm*cursorColor: cyan
+xterm*highlightColor: white
+xterm*faceName: xterm -fn '-*-*-bold-*-*-*-18-*-*-*-c-*-iso8859-7'
+xterm*faceSize: 11
+
+Xft.rgba: none
