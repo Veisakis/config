@@ -116,16 +116,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#Terminal Customization
-xrdb .Xresources
-
 #custom aliases
 alias dt='cd /home/manousos/Desktop/'
 alias za='zathura'
 alias sx='sxiv'
-alias mmsync='rsync -a --exclude="\.*" "/media/veisakis/exFAT/MM/" "/home/veisakis/Media/"'
-alias hsync='rsync -a --exclude="\.*" "/media/veisakis/exFAT/Ιστορία/" "/media/Archive/Ιστορία/"'
 alias site='ssh pi@istoria.duckdns.org'
+alias pt='python'
+alias ss='cd ~/scripts/'  
+alias up='sudo pacman -Syu'
 
 #custom variables
 export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
+export GITHUB_TOKEN='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'
