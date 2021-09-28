@@ -41,7 +41,7 @@ exec --no-startup-id nm-applet
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -181,17 +181,21 @@ bar {
 }
 
 #Browser
-bindsym $mod+b exec firefox
+bindsym $mod+b exec brave
+bindsym $mod+t exec brave --tor
 
 #Language
 exec --no-startup-id "setxkbmap -model pc105 -layout us,gr -option grp:alt_shift_toggle"
+bindsym Shift+Alt_L exec pkill -SIGRTMIN+2 i3blocks
 
 #Background
-exec_always feh --bg-scale /home/manousos/Wallpapers/'1913-Σύσκεψη στο Χάνι του Εμίν Αγά.JPG'
+exec_always feh --bg-center /home/manousos/myfiles/wallpapers/'Κωνσταντίνος Παλαιολόγος.jpeg'
 
 #dmenu
 bindsym $mod+Shift+x exec /home/manousos/scripts/i3/prompt.sh "Are you sure you want to shutdown now?" "shutdown now"
 bindsym $mod+Shift+b exec /home/manousos/scripts/i3/prompt.sh "Are you sure you want to reboot?" "reboot"
+bindsym $mod+Insert exec /home/manousos/scripts/i3/mount.sh
+bindsym $mod+Delete exec /home/manousos/scripts/i3/unmount.sh
 
 #volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute && pkill -SIGRTMIN+1 i3blocks
