@@ -127,4 +127,3 @@ alias up='sudo pacman -Syu'
 
 #custom variables
 export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
-export GITHUB_TOKEN='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'
