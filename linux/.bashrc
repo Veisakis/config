@@ -120,10 +120,6 @@ fi
 alias dt='cd /home/manousos/Desktop/'
 alias za='zathura'
 alias sx='sxiv'
-alias site='ssh pi@istoria.duckdns.org'
-alias pt='python'
-alias ss='cd ~/scripts/'  
-alias up='sudo pacman -Syu'
 
 #custom variables
 export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
