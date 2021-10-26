@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[1;33m\]\u\[\033[1;36m\]@\[\033[33m\]\h\[\033[1;36m\]:\[\033[34m\]\W\[\033[1;36m\]\$\[\033[00m\] '
+    PS1='\[\033[1;33m\]\u\[\033[1;36m\]@\[\033[33m\]\h\[\033[1;36m\]:\[\033[34m\]\W\[\033[1;36m\]\$\[\033[1;31m\]$([ -d .git ] && echo " (Git)")\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
 fi
@@ -120,6 +120,8 @@ fi
 alias dt='cd /home/manousos/Desktop/'
 alias za='zathura'
 alias sx='sxiv'
+alias site='ssh pi@192.168.1.11'
+alias msync='rsync -arv --exclude=".*" /run/media/manousos/Archive/MM/* /run/media/manousos/exFAT/MM/'
 
 #custom variables
 export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
