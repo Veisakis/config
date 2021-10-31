@@ -1,5 +1,3 @@
-# .bashrc
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -26,6 +24,7 @@ git_repo () {
 PS1='\[\033[1;33m\]\u\[\033[1;36m\]@\[\033[33m\]\h\[\033[1;36m\]:\[\033[34m\]\W\[\033[1;36m\]\$\[\033[1;31m\]$(git_repo)\[\033[00m\] '
 
 #Custom Aliases
+alias ls='ls --color=auto'
 alias ll='ls -la'
 alias ds='cd ~/Desktop'
 alias sc='cd ~/scripts'

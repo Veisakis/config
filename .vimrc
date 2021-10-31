@@ -1,4 +1,6 @@
+"use vim settings instead of vi
 set nocompatible
+
 set number relativenumber
 set tabstop=2
 
@@ -10,4 +12,4 @@ autocmd FileType tex inoremap ;b {\textbf{}}<Esc>1hi
 autocmd FileType tex inoremap ;i {\textit{}}<Esc>1hi
 autocmd FileType tex inoremap ;u {\underline{}}<Esc>1hi
 
-autocmd BufWritePost *.c !gcc % && .//a.out
+"autocmd BufWritePost *.c !gcc % && .//a.out
