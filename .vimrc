@@ -14,4 +14,5 @@ autocmd FileType tex inoremap ;i {\textit{}}<Esc>1hi
 autocmd FileType tex inoremap ;u {\underline{}}<Esc>1hi
 
 autocmd FileType c nnoremap ;c :!gcc % && ./a.out
-"autocmd BufWritePost *.c !gcc % && .//a.out
+
+autocmd BufWritePost *.tex !pdflatex % && biber %:r && pdflatex %
