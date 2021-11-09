@@ -1,6 +1,7 @@
 "use vim settings instead of vi
 set nocompatible
 
+syntax enable
 set number relativenumber
 set tabstop=2
 
