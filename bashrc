@@ -14,10 +14,10 @@ export PATH
 git_repo () {
 	if [ $(git status 2> /dev/null | wc -l) -gt 0 ] && [ $(git status -s 2> /dev/null | wc -l) -gt 0 ] 
 	then
-		echo " (Git)*"
+		echo "  *"
 	elif [ $(git status 2> /dev/null | wc -l) -gt 0 ] 
 	then
-		echo " (Git)"
+		echo "  "
 	fi
 }
 
@@ -34,4 +34,6 @@ alias za='zathura'
 alias site='ssh pi@192.168.1.11'
 alias msync='rsync -arv --exclude=".*" /run/media/manousos/Archive/MM/* /run/media/manousos/exFAT/MM/'
 
-#Environment Variables
+#custom variables
+export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
+export GITHUB_TOKEN='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'
