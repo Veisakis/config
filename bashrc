@@ -35,5 +35,3 @@ alias site='ssh pi@192.168.1.11'
 alias msync='rsync -arv --exclude=".*" /run/media/manousos/Archive/MM/* /run/media/manousos/exFAT/MM/'
 
 #custom variables
-export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
-export GITHUB_TOKEN='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'
