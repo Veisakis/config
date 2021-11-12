@@ -11,6 +11,9 @@
 
 set $mod Mod4
 
+#class	        <border>	<backgr>	<text>	<indicator>	<child_border>
+client.focused	#fe9a2f 	#fe9a2f 	#ffffff 	#fe9a2f 			#fe9a2f 
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:Monospace 8
@@ -22,7 +25,7 @@ font pango:DejaVu Sans Mono 8
 #i3-gaps
 
 # You can also use any non-zero value if you'd like to have a border
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 2
 
 gaps inner 15
 gaps outer 5
@@ -217,3 +220,6 @@ bindsym $mod+Delete exec /home/manousos/scripts/i3/unmount.sh
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute && pkill -SIGRTMIN+1 i3blocks
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute && pkill -SIGRTMIN+1 i3blocks
 bindsym XF86AudioMute exec amixer -q set Master toggle && pkill -SIGRTMIN+1 i3blocks
+bindcode 135 exec mpc toggle
+bindsym ctrl+comma exec mpc prev
+bindsym ctrl+period exec mpc next
