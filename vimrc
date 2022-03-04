@@ -1,12 +1,10 @@
 "use vim settings instead of vi
 set nocompatible
 
-
-"General
+"General View
 syntax enable
-
-set number relativenumber
 set tabstop=2
+set number relativenumber
 
 
 "Split View
