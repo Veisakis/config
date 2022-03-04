@@ -1,11 +1,26 @@
 "use vim settings instead of vi
 set nocompatible
 
+
+"General
 syntax enable
+
 set number relativenumber
 set tabstop=2
 
+
+"Split View
+set splitbelow splitright
+
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+
+"AutoCommands
 filetype plugin on
+
 autocmd BufRead,BufNewFile *.c set filetype=c
 autocmd BufRead,BufNewFile *.tex set filetype=tex
 
