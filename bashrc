@@ -32,7 +32,7 @@ alias dl='cd ~/Downloads'
 alias sx='sxiv'
 alias za='zathura'
 alias site='ssh pi@192.168.1.11'
-alias msync='rsync -arv --exclude=".*" /run/media/manousos/Archive/MM/* /run/media/manousos/exFAT/MM/'
+alias msync='rsync -arv --exclude=".*" /media/manousos/Archive/MM/* /run/media/manousos/Movies/'
 alias tra='transmission-remote --torrent-done-script ~/scripts/i3/torrent.sh -a '
 alias trl='transmission-remote -l'
 
