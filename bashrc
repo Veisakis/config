@@ -20,8 +20,8 @@ git_repo () {
 		echo "  "
 	fi
 }
-
 PS1='\[\033[1;33m\]\u\[\033[1;36m\]@\[\033[33m\]\h\[\033[1;36m\]:\[\033[34m\]\W\[\033[1;36m\]\$\[\033[1;31m\]$(git_repo)\[\033[00m\] '
+
 
 #Custom Aliases
 alias ls='ls --color=auto'
@@ -36,4 +36,8 @@ alias msync='rsync -arv --exclude=".*" /media/manousos/Archive/MM/* /run/media/m
 alias tra='transmission-remote --torrent-done-script ~/scripts/i3/torrent.sh -a '
 alias trl='transmission-remote -l'
 
-#custom variables
+#Environmental Variables
+export EDITOR=/usr/bin/vim
+
+#Shell Variables
+#Tokens
