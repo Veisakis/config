@@ -41,3 +41,5 @@ export EDITOR=/usr/bin/vim
 
 #Shell Variables
 #Tokens
+export TELEGRAM_TOKEN="5380255189:AAHbXvG9ZlU6d-ei0dsVXPepUK_mv6e7uLQ"
+export TELEGRAM_CHATID="-642690481"
