@@ -3,6 +3,8 @@ set nocompatible
 
 "General View
 syntax enable
+colorscheme habamax
+
 set tabstop=2
 set number relativenumber
 
