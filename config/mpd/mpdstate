@@ -1,0 +1,54 @@
+sw_volume: 98
+audio_device_state:1:pulse
+audio_device_state:1:Visualizer feed
+state: pause
+current: 30
+time: 38.510000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:RoryGallagher/101-rory_gallagher-follow_me.mp3
+1:RoryGallagher/101-rory_gallagher-follow_me.mp3
+2:RoryGallagher/201-rory_gallagher-in_your_town.mp3
+3:RoryGallagher/102-rory_gallagher-moonchild.mp3
+4:RoryGallagher/202-rory_gallagher-philby.mp3
+5:RoryGallagher/103-rory_gallagher-bought_and_sold.mp3
+6:RoryGallagher/203-rory_gallagher-slumming_angel.mp3
+7:RoryGallagher/204-rory_gallagher-continental_op.mp3
+8:RoryGallagher/104-rory_gallagher-laundromat.mp3
+9:RoryGallagher/105-rory_gallagher-bad_penny.mp3
+10:RoryGallagher/205-rory_gallagher-cradle_rock.mp3
+11:RoryGallagher/206-rory_gallagher-a_million_miles_away.mp3
+12:RoryGallagher/106-rory_gallagher-edged_in_blue.mp3
+13:RoryGallagher/107-rory_gallagher-brute_force_and_ignorance_(live).mp3
+14:RoryGallagher/207-rory_gallagher-wheels_within_wheels.mp3
+15:RoryGallagher/208-rory_gallagher-crest_of_a_wave.mp3
+16:RoryGallagher/108-rory_gallagher-i_fall_apart.mp3
+17:RoryGallagher/109-rory_gallagher-loanshark_blues.mp3
+18:RoryGallagher/209-rory_gallagher-they_dont_make_them_like_you_anymore.mp3
+19:RoryGallagher/210-rory_gallagher-walk_on_hot_coals.mp3
+20:RoryGallagher/110-rory_gallagher-whos_that_coming.mp3
+21:RoryGallagher/111-rory_gallagher-as_the_crow_flies_(live).mp3
+22:RoryGallagher/211-rory_gallagher-shadow_play.mp3
+23:RoryGallagher/112-rory_gallagher-barley_and_grape_rag.mp3
+24:RoryGallagher/212-rory_gallagher-i_couldve_had_religion_(live).mp3
+25:RoryGallagher/113-rory_gallagher-lonesome_highway.mp3
+26:RoryGallagher/213-rory_gallagher-tattood_lady_(live).mp3
+27:RoryGallagher/214-rory_gallagher-bullfrog_blues_(live).mp3
+28:RoryGallagher/114-rory_gallagher-out_on_the_western_plain.mp3
+29:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/01 Speak to Me.flac
+30:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/02 Breathe (In the Air).flac
+31:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/03 On the Run.flac
+32:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/04 Time.flac
+33:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/05 The Great Gig in the Sky.flac
+34:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/06 Money.flac
+35:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/07 Us and Them.flac
+36:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/08 Any Colour You Like.flac
+37:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/09 Brain Damage.flac
+38:PinkFloyd/DarkSideoftheMoon/The Dark Side Of The Moon (Live at Wembley 1974 - 2023 Master)/10 Eclipse.flac
+playlist_end

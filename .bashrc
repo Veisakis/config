@@ -1,3 +1,5 @@
+neofetch
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -33,7 +35,8 @@ alias sx='sxiv'
 alias za='zathura'
 alias site='ssh pi@192.168.1.11'
 alias msync='rsync -arv --exclude=".*" /media/manousos/Archive/MM/* /run/media/manousos/Movies/'
-alias tra='transmission-remote --torrent-done-script ~/scripts/i3/torrent.sh -a '
+alias tra='transmission-remote -a '
+alias trc="transmission-remote -l | awk '/100%/ {fin=\$1; gsub(\"*\",\"\",fin); print fin}' | xargs -i transmission-remote -t{} -r && pkill -SIGRTMIN+7 i3blocks"
 alias trl='transmission-remote -l'
 
 #Environmental Variables
@@ -41,6 +44,6 @@ export EDITOR=/usr/bin/vim
 
 #Shell Variables
 #Tokens
-GOV_API='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'
-TELEGRAM_TOKEN="5380255189:AAHbXvG9ZlU6d-ei0dsVXPepUK_mv6e7uLQ"
-TELEGRAM_CHATID="-642690481"
+export GOV_API='cae197251734baf5d81483596ac52d81cb41b779'
+export TELEGRAM_TOKEN="5380255189:AAHbXvG9ZlU6d-ei0dsVXPepUK_mv6e7uLQ"
+export TELEGRAM_CHATID="-642690481"
