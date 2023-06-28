@@ -10,6 +10,5 @@ transmission-daemon &
 
 #Start wm
 startx
-exec i3
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
